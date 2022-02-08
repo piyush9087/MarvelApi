@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE56DF9627B29256004993DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF9527B29256004993DE /* AppDelegate.swift */; };
+		EE56DF9827B29256004993DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DF9727B29256004993DE /* ViewController.swift */; };
+		EE56DF9B27B29256004993DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE56DF9927B29256004993DE /* Main.storyboard */; };
+		EE56DF9D27B29259004993DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE56DF9C27B29259004993DE /* Assets.xcassets */; };
+		EE56DFA027B29259004993DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE56DF9E27B29259004993DE /* LaunchScreen.storyboard */; };
+		EE56DFAB27B29259004993DE /* OpenBank_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DFAA27B29259004993DE /* OpenBank_AssignmentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE56DFA727B29259004993DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE56DF8A27B29256004993DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE56DF9127B29256004993DE;
+			remoteInfo = OpenBank_Assignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE56DF9227B29256004993DE /* OpenBank_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenBank_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE56DF9527B29256004993DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE56DF9727B29256004993DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE56DF9A27B29256004993DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE56DF9C27B29259004993DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE56DF9F27B29259004993DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE56DFA127B29259004993DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE56DFA627B29259004993DE /* OpenBank_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenBank_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE56DFAA27B29259004993DE /* OpenBank_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBank_AssignmentTests.swift; sourceTree = "<group>"; };
+		EE56DFAC27B29259004993DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE56DF8F27B29256004993DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE56DFA327B29259004993DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE56DF8927B29256004993DE = {
+			isa = PBXGroup;
+			children = (
+				EE56DF9427B29256004993DE /* OpenBank_Assignment */,
+				EE56DFA927B29259004993DE /* OpenBank_AssignmentTests */,
+				EE56DF9327B29256004993DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE56DF9327B29256004993DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DF9227B29256004993DE /* OpenBank_Assignment.app */,
+				EE56DFA627B29259004993DE /* OpenBank_AssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE56DF9427B29256004993DE /* OpenBank_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DF9527B29256004993DE /* AppDelegate.swift */,
+				EE56DF9727B29256004993DE /* ViewController.swift */,
+				EE56DF9927B29256004993DE /* Main.storyboard */,
+				EE56DF9C27B29259004993DE /* Assets.xcassets */,
+				EE56DF9E27B29259004993DE /* LaunchScreen.storyboard */,
+				EE56DFA127B29259004993DE /* Info.plist */,
+			);
+			path = OpenBank_Assignment;
+			sourceTree = "<group>";
+		};
+		EE56DFA927B29259004993DE /* OpenBank_AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE56DFAA27B29259004993DE /* OpenBank_AssignmentTests.swift */,
+				EE56DFAC27B29259004993DE /* Info.plist */,
+			);
+			path = OpenBank_AssignmentTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE56DF9127B29256004993DE /* OpenBank_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE56DFAF27B29259004993DE /* Build configuration list for PBXNativeTarget "OpenBank_Assignment" */;
+			buildPhases = (
+				EE56DF8E27B29256004993DE /* Sources */,
+				EE56DF8F27B29256004993DE /* Frameworks */,
+				EE56DF9027B29256004993DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenBank_Assignment;
+			productName = OpenBank_Assignment;
+			productReference = EE56DF9227B29256004993DE /* OpenBank_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE56DFA527B29259004993DE /* OpenBank_AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE56DFB227B29259004993DE /* Build configuration list for PBXNativeTarget "OpenBank_AssignmentTests" */;
+			buildPhases = (
+				EE56DFA227B29259004993DE /* Sources */,
+				EE56DFA327B29259004993DE /* Frameworks */,
+				EE56DFA427B29259004993DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE56DFA827B29259004993DE /* PBXTargetDependency */,
+			);
+			name = OpenBank_AssignmentTests;
+			productName = OpenBank_AssignmentTests;
+			productReference = EE56DFA627B29259004993DE /* OpenBank_AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE56DF8A27B29256004993DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Piyush Daryapurkar";
+				TargetAttributes = {
+					EE56DF9127B29256004993DE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EE56DFA527B29259004993DE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE56DF9127B29256004993DE;
+					};
+				};
+			};
+			buildConfigurationList = EE56DF8D27B29256004993DE /* Build configuration list for PBXProject "OpenBank_Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE56DF8927B29256004993DE;
+			productRefGroup = EE56DF9327B29256004993DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE56DF9127B29256004993DE /* OpenBank_Assignment */,
+				EE56DFA527B29259004993DE /* OpenBank_AssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE56DF9027B29256004993DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE56DFA027B29259004993DE /* LaunchScreen.storyboard in Resources */,
+				EE56DF9D27B29259004993DE /* Assets.xcassets in Resources */,
+				EE56DF9B27B29256004993DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE56DFA427B29259004993DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE56DF8E27B29256004993DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE56DF9827B29256004993DE /* ViewController.swift in Sources */,
+				EE56DF9627B29256004993DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE56DFA227B29259004993DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE56DFAB27B29259004993DE /* OpenBank_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE56DFA827B29259004993DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE56DF9127B29256004993DE /* OpenBank_Assignment */;
+			targetProxy = EE56DFA727B29259004993DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE56DF9927B29256004993DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE56DF9A27B29256004993DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE56DF9E27B29259004993DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE56DF9F27B29259004993DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE56DFAD27B29259004993DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE56DFAE27B29259004993DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE56DFB027B29259004993DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenBank_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.OpenBank-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE56DFB127B29259004993DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenBank_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.OpenBank-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE56DFB327B29259004993DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenBank_AssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.OpenBank-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenBank_Assignment.app/OpenBank_Assignment";
+			};
+			name = Debug;
+		};
+		EE56DFB427B29259004993DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenBank_AssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.OpenBank-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenBank_Assignment.app/OpenBank_Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE56DF8D27B29256004993DE /* Build configuration list for PBXProject "OpenBank_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE56DFAD27B29259004993DE /* Debug */,
+				EE56DFAE27B29259004993DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE56DFAF27B29259004993DE /* Build configuration list for PBXNativeTarget "OpenBank_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE56DFB027B29259004993DE /* Debug */,
+				EE56DFB127B29259004993DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE56DFB227B29259004993DE /* Build configuration list for PBXNativeTarget "OpenBank_AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE56DFB327B29259004993DE /* Debug */,
+				EE56DFB427B29259004993DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE56DF8A27B29256004993DE /* Project object */;
+}
