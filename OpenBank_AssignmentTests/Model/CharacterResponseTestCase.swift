@@ -34,8 +34,8 @@ class CharacterResponseTestCase: XCTestCase {
     func testCharacterResponse_MapJson() throws {
         //let bundle = Bundle.main
         let bundle = Bundle(for: type(of: self))
-        guard let url = bundle.url(forResource: "CharacterData", withExtension: "json") else {
-            XCTFail("Missing file: CharacterData.json")
+        guard let url = bundle.url(forResource: "Character", withExtension: "json") else {
+            XCTFail("Missing file: Character.json")
             return
         }
         

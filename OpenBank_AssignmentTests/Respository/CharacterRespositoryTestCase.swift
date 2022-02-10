@@ -72,7 +72,7 @@ struct MockAppServerClient {
     
     func getCharacterListMockWithValidResponse(completion: @escaping(_ result: CharacterResponse?, _ error:String?) -> Void) {
         let bundle = Bundle.main
-        guard let url = bundle.url(forResource: "CharacterData", withExtension: "json") else {
+        guard let url = bundle.url(forResource: "Character", withExtension: "json") else {
             return
         }
         let data = try? Data(contentsOf:url)
@@ -86,7 +86,7 @@ struct MockAppServerClient {
     
     func getCharacterDetailsMockWithValidResponse(completion: @escaping(_ result:CharacterModel?, _ error:String?) -> Void) {
         let bundle = Bundle.main
-        guard let url = bundle.url(forResource: "CharacterData", withExtension: "json") else {
+        guard let url = bundle.url(forResource: "Character", withExtension: "json") else {
             return
         }
         let data = try? Data(contentsOf:url)
