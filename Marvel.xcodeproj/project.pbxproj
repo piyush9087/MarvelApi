@@ -15,7 +15,6 @@
 		EE56DF9B27B29256004993DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE56DF9927B29256004993DE /* Main.storyboard */; };
 		EE56DF9D27B29259004993DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE56DF9C27B29259004993DE /* Assets.xcassets */; };
 		EE56DFA027B29259004993DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE56DF9E27B29259004993DE /* LaunchScreen.storyboard */; };
-		EE56DFAB27B29259004993DE /* OpenBank_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DFAA27B29259004993DE /* OpenBank_AssignmentTests.swift */; };
 		EE56DFB627B2A05A004993DE /* MarvelCharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DFB527B2A05A004993DE /* MarvelCharacterListViewController.swift */; };
 		EE56DFB827B2A06E004993DE /* MarvelcharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DFB727B2A06E004993DE /* MarvelcharacterDetailsViewController.swift */; };
 		EE56DFC127B2A5E0004993DE /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56DFC027B2A5E0004993DE /* ActivityIndicatorView.swift */; };
@@ -54,14 +53,13 @@
 		EE54BFC527B36DC4004D70C6 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		EE54BFC727B36EA2004D70C6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EE54BFC927B376AB004D70C6 /* MarvelCharacterListTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharacterListTestCase.swift; sourceTree = "<group>"; };
-		EE56DF9227B29256004993DE /* OpenBank_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenBank_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE56DF9227B29256004993DE /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE56DF9527B29256004993DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE56DF9A27B29256004993DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE56DF9C27B29259004993DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE56DF9F27B29259004993DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE56DFA127B29259004993DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE56DFA627B29259004993DE /* OpenBank_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenBank_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE56DFAA27B29259004993DE /* OpenBank_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBank_AssignmentTests.swift; sourceTree = "<group>"; };
+		EE56DFA627B29259004993DE /* MarvelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE56DFAC27B29259004993DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE56DFB527B2A05A004993DE /* MarvelCharacterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharacterListViewController.swift; sourceTree = "<group>"; };
 		EE56DFB727B2A06E004993DE /* MarvelcharacterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelcharacterDetailsViewController.swift; sourceTree = "<group>"; };
@@ -121,8 +119,8 @@
 		EE56DF8927B29256004993DE = {
 			isa = PBXGroup;
 			children = (
-				EE56DF9427B29256004993DE /* OpenBank_Assignment */,
-				EE56DFA927B29259004993DE /* OpenBank_AssignmentTests */,
+				EE56DF9427B29256004993DE /* Marvel */,
+				EE56DFA927B29259004993DE /* MarvelTests */,
 				EE56DF9327B29256004993DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,13 +128,13 @@
 		EE56DF9327B29256004993DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE56DF9227B29256004993DE /* OpenBank_Assignment.app */,
-				EE56DFA627B29259004993DE /* OpenBank_AssignmentTests.xctest */,
+				EE56DF9227B29256004993DE /* Marvel.app */,
+				EE56DFA627B29259004993DE /* MarvelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE56DF9427B29256004993DE /* OpenBank_Assignment */ = {
+		EE56DF9427B29256004993DE /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
 				EE54BFC227B36303004D70C6 /* Common */,
@@ -152,22 +150,21 @@
 				EE56DFA127B29259004993DE /* Info.plist */,
 				EE54BFC327B36BFD004D70C6 /* Configuration.plist */,
 			);
-			path = OpenBank_Assignment;
+			path = Marvel;
 			sourceTree = "<group>";
 		};
-		EE56DFA927B29259004993DE /* OpenBank_AssignmentTests */ = {
+		EE56DFA927B29259004993DE /* MarvelTests */ = {
 			isa = PBXGroup;
 			children = (
 				EE60C2A427B4CF0A00AF0F31 /* APIClient */,
 				EE60C2A127B4C51F00AF0F31 /* Respository */,
 				EE60C29E27B4C0AF00AF0F31 /* Model */,
 				EE60C29D27B4C0A000AF0F31 /* View */,
-				EE56DFAA27B29259004993DE /* OpenBank_AssignmentTests.swift */,
 				EE56DFAC27B29259004993DE /* Info.plist */,
 				EEDA5D0227B50CBB00F8110E /* CharacterViewModelTestCase.swift */,
 				EEDA5D0727B5217B00F8110E /* CharacterDetailsViewModelTestCase.swift */,
 			);
-			path = OpenBank_AssignmentTests;
+			path = MarvelTests;
 			sourceTree = "<group>";
 		};
 		EE56DFB927B2A17C004993DE /* APIClient */ = {
@@ -251,9 +248,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE56DF9127B29256004993DE /* OpenBank_Assignment */ = {
+		EE56DF9127B29256004993DE /* Marvel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE56DFAF27B29259004993DE /* Build configuration list for PBXNativeTarget "OpenBank_Assignment" */;
+			buildConfigurationList = EE56DFAF27B29259004993DE /* Build configuration list for PBXNativeTarget "Marvel" */;
 			buildPhases = (
 				EE56DF8E27B29256004993DE /* Sources */,
 				EE56DF8F27B29256004993DE /* Frameworks */,
@@ -263,14 +260,14 @@
 			);
 			dependencies = (
 			);
-			name = OpenBank_Assignment;
+			name = Marvel;
 			productName = OpenBank_Assignment;
-			productReference = EE56DF9227B29256004993DE /* OpenBank_Assignment.app */;
+			productReference = EE56DF9227B29256004993DE /* Marvel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EE56DFA527B29259004993DE /* OpenBank_AssignmentTests */ = {
+		EE56DFA527B29259004993DE /* MarvelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE56DFB227B29259004993DE /* Build configuration list for PBXNativeTarget "OpenBank_AssignmentTests" */;
+			buildConfigurationList = EE56DFB227B29259004993DE /* Build configuration list for PBXNativeTarget "MarvelTests" */;
 			buildPhases = (
 				EE56DFA227B29259004993DE /* Sources */,
 				EE56DFA327B29259004993DE /* Frameworks */,
@@ -281,9 +278,9 @@
 			dependencies = (
 				EE56DFA827B29259004993DE /* PBXTargetDependency */,
 			);
-			name = OpenBank_AssignmentTests;
+			name = MarvelTests;
 			productName = OpenBank_AssignmentTests;
-			productReference = EE56DFA627B29259004993DE /* OpenBank_AssignmentTests.xctest */;
+			productReference = EE56DFA627B29259004993DE /* MarvelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +302,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EE56DF8D27B29256004993DE /* Build configuration list for PBXProject "OpenBank_Assignment" */;
+			buildConfigurationList = EE56DF8D27B29256004993DE /* Build configuration list for PBXProject "Marvel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,8 +315,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE56DF9127B29256004993DE /* OpenBank_Assignment */,
-				EE56DFA527B29259004993DE /* OpenBank_AssignmentTests */,
+				EE56DF9127B29256004993DE /* Marvel */,
+				EE56DFA527B29259004993DE /* MarvelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,7 +376,6 @@
 				EEDA5D0327B50CBB00F8110E /* CharacterViewModelTestCase.swift in Sources */,
 				EE54BFCA27B376AB004D70C6 /* MarvelCharacterListTestCase.swift in Sources */,
 				EE60C2A327B4C54800AF0F31 /* CharacterRespositoryTestCase.swift in Sources */,
-				EE56DFAB27B29259004993DE /* OpenBank_AssignmentTests.swift in Sources */,
 				EEDA5D0827B5217B00F8110E /* CharacterDetailsViewModelTestCase.swift in Sources */,
 				EE60C2AA27B4EA3800AF0F31 /* CharacterResponseTestCase.swift in Sources */,
 				EE60C2A027B4C0D700AF0F31 /* CharacterRequestTestCase.swift in Sources */,
@@ -391,7 +387,7 @@
 /* Begin PBXTargetDependency section */
 		EE56DFA827B29259004993DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE56DF9127B29256004993DE /* OpenBank_Assignment */;
+			target = EE56DF9127B29256004993DE /* Marvel */;
 			targetProxy = EE56DFA727B29259004993DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -537,12 +533,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OpenBank_Assignment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Marvel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.OpenBank-Assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Marvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -554,12 +550,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OpenBank_Assignment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Marvel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.OpenBank-Assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Marvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,17 +568,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OpenBank_AssignmentTests/Info.plist;
+				INFOPLIST_FILE = MarvelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.OpenBank-AssignmentTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MarvelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenBank_Assignment.app/OpenBank_Assignment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvel.app/Marvel";
 			};
 			name = Debug;
 		};
@@ -592,24 +588,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OpenBank_AssignmentTests/Info.plist;
+				INFOPLIST_FILE = MarvelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.OpenBank-AssignmentTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MarvelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenBank_Assignment.app/OpenBank_Assignment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvel.app/Marvel";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE56DF8D27B29256004993DE /* Build configuration list for PBXProject "OpenBank_Assignment" */ = {
+		EE56DF8D27B29256004993DE /* Build configuration list for PBXProject "Marvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE56DFAD27B29259004993DE /* Debug */,
@@ -618,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE56DFAF27B29259004993DE /* Build configuration list for PBXNativeTarget "OpenBank_Assignment" */ = {
+		EE56DFAF27B29259004993DE /* Build configuration list for PBXNativeTarget "Marvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE56DFB027B29259004993DE /* Debug */,
@@ -627,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE56DFB227B29259004993DE /* Build configuration list for PBXNativeTarget "OpenBank_AssignmentTests" */ = {
+		EE56DFB227B29259004993DE /* Build configuration list for PBXNativeTarget "MarvelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE56DFB327B29259004993DE /* Debug */,

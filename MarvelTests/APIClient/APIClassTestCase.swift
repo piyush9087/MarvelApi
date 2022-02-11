@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import OpenBank_Assignment
+@testable import Marvel
 
 class APIClassTestCase: XCTestCase {
     
@@ -25,7 +25,7 @@ class APIClassTestCase: XCTestCase {
     
     func testGeneratingRequestWithQueryItems() throws {
         let actualUrl = apiClass.createURLFromParameters(parameters: ["q" : "110921"], pathparam: "path")
-        let hardcodedUrl = URL(string:baseUrl + "/path?q=110921")
+        let hardcodedUrl = URL(string:baseUrl + "path?q=110921")
         XCTAssertEqual(actualUrl,hardcodedUrl)
     }
 }

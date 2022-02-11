@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import OpenBank_Assignment
+@testable import Marvel
 
 class CharacterRequestTestCase: XCTestCase {
 
