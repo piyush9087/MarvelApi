@@ -13,7 +13,7 @@
         <!--Characters-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="MarvelCharacterListViewController" id="BYZ-38-t0r" customClass="MarvelCharacterListViewController" customModule="OpenBank_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MarvelCharacterListViewController" id="BYZ-38-t0r" customClass="MarvelCharacterListViewController" customModule="Marvel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,17 +22,17 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CharacterTableViewCell" rowHeight="210" id="vef-8l-xMh" customClass="CharacterTableViewCell" customModule="OpenBank_Assignment" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CharacterTableViewCell" rowHeight="210" id="vef-8l-xMh" customClass="CharacterTableViewCell" customModule="Marvel" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="210"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vef-8l-xMh" id="NbS-5M-MHc">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAI-He-yNJ" customClass="CharacterView" customModule="OpenBank_Assignment" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAI-He-yNJ" customClass="CharacterView" customModule="Marvel" customModuleProvider="target">
                                                     <rect key="frame" x="10" y="5" width="355" height="200"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="UmE-Zp-qdg" customClass="CharacterImageView" customModule="OpenBank_Assignment" customModuleProvider="target">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="UmE-Zp-qdg" customClass="CharacterImageView" customModule="Marvel" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="355" height="200"/>
                                                         </imageView>
                                                         <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MCH-Kt-9tc">
@@ -99,6 +99,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="iwF-5p-FNl"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="fOh-yB-Ehd"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -122,12 +126,12 @@
         <!--Marvelcharacter Details View Controller-->
         <scene sceneID="Fwc-So-rsj">
             <objects>
-                <viewController storyboardIdentifier="MarvelcharacterDetailsViewController" id="AYN-qN-Uv6" customClass="MarvelcharacterDetailsViewController" customModule="OpenBank_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MarvelcharacterDetailsViewController" id="AYN-qN-Uv6" customClass="MarvelcharacterDetailsViewController" customModule="Marvel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wmk-0c-lHo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="QvN-ZV-OkL" customClass="CharacterImageView" customModule="OpenBank_Assignment" customModuleProvider="target">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="QvN-ZV-OkL" customClass="CharacterImageView" customModule="Marvel" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="20" width="375" height="380"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="380" id="dwg-HF-Lmv"/>

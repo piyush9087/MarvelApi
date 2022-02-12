@@ -16,7 +16,7 @@ protocol CharacterDetailsViewModelDelegate {
 struct CharacterDetailsViewModel {
     
     var delegate:CharacterDetailsViewModelDelegate?
-    
+    // Fetch Character Details from Respository Function & Send to View 
     func fetchMarvelCharacterDetails(marvelCharacterRequest:CharacterRequest,characterId:Int) {
         CharacterRepository().getCharacterDetails(request:marvelCharacterRequest,characterId:characterId) { apiResponse,error in
             DispatchQueue.main.async {

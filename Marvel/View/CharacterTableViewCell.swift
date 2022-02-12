@@ -27,6 +27,7 @@ class CharacterTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    // Set All Values To Cell
     func cellConfiguration(character:CharacterModel) {
         parentView.applyTopRoundedCornersView()
         characterNameLbl.text = character.name

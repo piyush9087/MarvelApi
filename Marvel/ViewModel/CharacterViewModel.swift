@@ -16,7 +16,7 @@ protocol CharacterViewModelDelegate {
 struct CharacterViewModel {
     
     var delegate:CharacterViewModelDelegate?
-    
+    // Fetch Character List from Respository Function & Send to View 
     func fetchMarvelCharacters(marvelCharacterRequest:CharacterRequest) {
         CharacterRepository().getCharacterList(request:marvelCharacterRequest) { apiResponse,error  in
             DispatchQueue.main.async {

@@ -10,6 +10,7 @@ import Foundation
 
 struct CharacterRepository {
     
+    // Call Character List Api
     func getCharacterList(request:CharacterRequest, completion: @escaping(_ result: CharacterResponse?, _ error:String?) -> Void) {
         let dict = Configuration().getApiKeys()
         let url = APIClass.init().createURLFromParameters(parameters: ["apikey" : dict[Constants.publicApiKey] ?? "" ,"hash": request.hash,"ts":request.ts], pathparam: "characters")
@@ -33,7 +34,7 @@ struct CharacterRepository {
         task.resume()
     }
 
-    
+    // Call Character Details Api
     func getCharacterDetails(request:CharacterRequest, characterId:Int, completion: @escaping(_ result: CharacterModel?,_ error:String?) -> Void) {
         let dict = Configuration().getApiKeys()
         let url = APIClass.init().createURLFromParameters(parameters: ["apikey" : dict[Constants.publicApiKey] ?? "" ,"hash": request.hash,"ts":request.ts], pathparam:("characters/" + "\(String(characterId))"))

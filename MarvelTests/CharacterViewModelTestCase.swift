@@ -12,9 +12,11 @@ import XCTest
 class CharacterViewModelTestCase: XCTestCase {
 
     var viewModel:CharacterViewModel!
+    var respository:CharacterRepository!
     
     override func setUp() {
         viewModel = CharacterViewModel()
+        respository = CharacterRepository()
     }
 
     override func tearDown() {

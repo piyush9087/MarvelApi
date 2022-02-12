@@ -24,12 +24,10 @@ class MarvelCharacterListViewController: UIViewController {
         self.navigationController?.navigationBar.prefersLargeTitles = true
         configureDelegates()
         setActivityIndicator()
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
         loadCharacterList()
     }
     
+    // fetch Characters List from server
     func loadCharacterList() {
         indicator?.startAnimating()
         if NetworkConnectionMgr().isConnectedToNetwork() {
@@ -44,19 +42,20 @@ class MarvelCharacterListViewController: UIViewController {
         }
     }
     
+    // Configure Delegates Related to All Protocol
     func configureDelegates() {
-        marvelCharacterTableview.dataSource = self
-        marvelCharacterTableview.delegate = self
         viewModel.delegate = self
         alertView.delegate = self
     }
     
+    // Configure Progress Bar
     func setActivityIndicator() {
         indicator = ActivityIndicatorView.customIndicator(at:self.view.center)
         self.view.addSubview(indicator!)
     }
 }
 
+// MARK:  Implemented AlertDelegate Protocol
 extension MarvelCharacterListViewController:AlertDelegate {
     
     func tryAgain(controller: UIViewController) {
@@ -64,6 +63,7 @@ extension MarvelCharacterListViewController:AlertDelegate {
     }
 }
 
+// MARK: Implemented CharacterViewModelDelegate Protocol
 extension MarvelCharacterListViewController:CharacterViewModelDelegate {
     
     func didReceiveResponse(dataResponse:[CharacterModel]?) {
@@ -78,6 +78,7 @@ extension MarvelCharacterListViewController:CharacterViewModelDelegate {
     }
 }
 
+// MARK: Implemented UITableView Related Protocol
 extension MarvelCharacterListViewController:UITableViewDataSource,UITableViewDelegate {
     
     func numberOfSections(in tableView: UITableView) -> Int {

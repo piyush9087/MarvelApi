@@ -15,7 +15,7 @@ struct CharacterRequest:Encodable {
 }
 
 extension Date {
-    
+    // Get Time Stamp
     func generateTimeStamp() -> String {
         let timeStamp = NSDate().timeIntervalSince1970.description
         return timeStamp
@@ -23,7 +23,7 @@ extension Date {
 }
 
 extension String {
-    
+    // Get HashValue Using CommonCrypto
     func generateMd5HashValue(timestamp: String) -> String {
         let dict = Configuration().getApiKeys()
         let paramString = (timestamp + (dict[Constants.privateApiKey] ?? "") + (dict[Constants.publicApiKey] ?? ""))

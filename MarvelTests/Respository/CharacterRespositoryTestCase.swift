@@ -25,7 +25,7 @@ class CharacterRespositoryTestCase: XCTestCase {
     
     
     func testValidParametersInApiCall() throws {
-        let testCharacterRequest = CharacterRequest.init(hash:"14bb8b1b55920b49b3c100ae742dd3cf", ts:"thesoer")
+        let testCharacterRequest = CharacterRequest.init(hash:"72e5ed53d1398abb831c3ceec263f18b", ts:"thesoer")
         let url = apiClass.createURLFromParameters(parameters: ["apikey" : "001ac6c73378bbfff488a36141458af2" ,"hash": testCharacterRequest.hash,"ts":testCharacterRequest.ts], pathparam: "characters")
         let promise = expectation(description: "Status code: 200")
         let dataTask = URLSession.shared.dataTask(with: url) { _, response, error in
@@ -42,7 +42,7 @@ class CharacterRespositoryTestCase: XCTestCase {
             }
         }
         dataTask.resume()
-        wait(for: [promise], timeout:10)
+        wait(for: [promise], timeout:15)
     }
     
     func testInValidParametersInApiCall() throws {

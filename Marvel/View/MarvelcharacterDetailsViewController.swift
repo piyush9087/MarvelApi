@@ -35,6 +35,7 @@ class MarvelcharacterDetailsViewController: UIViewController {
         loadCharacterDetails()
     }
     
+    // fetch Characters Details from server
     func loadCharacterDetails() {
         indicator?.startAnimating()
         if NetworkConnectionMgr().isConnectedToNetwork() {
@@ -50,17 +51,20 @@ class MarvelcharacterDetailsViewController: UIViewController {
         }
     }
     
+    // Configure Delegates Related to All Protocol
     func configureDelegates() {
         viewModel.delegate = self
         alertView.delegate = self
     }
     
+    // Configure Progress Bar
     func setActivityIndicator() {
         indicator = ActivityIndicatorView.customIndicator(at:self.view.center)
         self.view.addSubview(indicator!)
     }
 }
 
+// MARK: Implemented CharacterDetailsViewModelDelegate Protocol
 extension MarvelcharacterDetailsViewController:CharacterDetailsViewModelDelegate {
     
     func didReceiveCharacterDetails(dataResponse:CharacterModel?) {
@@ -84,6 +88,7 @@ extension MarvelcharacterDetailsViewController:CharacterDetailsViewModelDelegate
     }
 }
 
+// MARK: Implemented AlertDelegate Protocol
 extension MarvelcharacterDetailsViewController:AlertDelegate {
     
     func tryAgain(controller: UIViewController) {

@@ -9,7 +9,7 @@
 import Foundation
 
 struct Configuration {
-    
+    // Read Configuration File for Keys
     func getApiKeys() -> [String:String] {
         
         if let path = Bundle.main.path(forResource:"Configuration", ofType: "plist") {
