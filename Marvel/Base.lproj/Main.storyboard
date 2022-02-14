@@ -29,7 +29,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAI-He-yNJ" customClass="CharacterView" customModule="Marvel" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAI-He-yNJ">
                                                     <rect key="frame" x="10" y="5" width="355" height="200"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="UmE-Zp-qdg" customClass="CharacterImageView" customModule="Marvel" customModuleProvider="target">
@@ -92,10 +92,10 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="characterDescriptionLbl" destination="LnV-zm-iu5" id="w3g-3M-50Y"/>
-                                            <outlet property="characterImageView" destination="UmE-Zp-qdg" id="9Q2-S2-7o3"/>
+                                            <outlet property="characterImageView" destination="UmE-Zp-qdg" id="bEW-YD-caX"/>
                                             <outlet property="characterNameLbl" destination="Gvz-az-cpy" id="Qu9-Zd-mvP"/>
                                             <outlet property="containerView" destination="NbS-5M-MHc" id="twY-Jo-pFx"/>
-                                            <outlet property="parentView" destination="YAI-He-yNJ" id="T7u-h4-C0F"/>
+                                            <outlet property="parentView" destination="YAI-He-yNJ" id="mFC-St-EJc"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -159,7 +159,7 @@
                     </view>
                     <connections>
                         <outlet property="characterDescTextView" destination="K5z-A9-Hkm" id="VIk-Yt-igw"/>
-                        <outlet property="characterImageView" destination="QvN-ZV-OkL" id="9Wc-wx-oEm"/>
+                        <outlet property="characterImageView" destination="QvN-ZV-OkL" id="p6L-gV-Wd2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Oa-6O-rqf" userLabel="First Responder" sceneMemberID="firstResponder"/>

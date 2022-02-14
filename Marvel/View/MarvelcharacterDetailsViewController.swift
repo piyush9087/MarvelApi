@@ -11,7 +11,7 @@ import UIKit
 class MarvelcharacterDetailsViewController: UIViewController {
     
     @IBOutlet weak var characterDescTextView: UITextView!
-    @IBOutlet weak var characterImageView: CharacterImageView!
+    @IBOutlet weak var characterImageView:UIImageView!
     
     var characterDataReceive:CharacterModel?
     var viewModel = CharacterDetailsViewModel()

@@ -8,16 +8,6 @@
 
 import UIKit
 
-class CharacterView: UIView {
-
-    func applyTopRoundedCornersView(cornerRadius:CGFloat = 16.0, borderWidth:CGFloat = 0.1, borderColor:CGColor = UIColor.black.cgColor) {
-        self.layer.masksToBounds = true
-        self.layer.borderColor = borderColor
-        self.layer.borderWidth = borderWidth
-        self.layer.cornerRadius = cornerRadius
-    }
-}
-
 extension UIView {
     
     func addShadow(shadowColor: CGColor = UIColor.gray.cgColor,
@@ -29,5 +19,12 @@ extension UIView {
         layer.shadowOpacity = shadowOpacity
         layer.shadowRadius = shadowRadius
         layer.masksToBounds = false
+    }
+    
+    func applyTopRoundedCornersView(cornerRadius:CGFloat = 16.0, borderWidth:CGFloat = 0.1, borderColor:CGColor = UIColor.black.cgColor) {
+        self.layer.masksToBounds = true
+        self.layer.borderColor = borderColor
+        self.layer.borderWidth = borderWidth
+        self.layer.cornerRadius = cornerRadius
     }
 }

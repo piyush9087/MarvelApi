@@ -12,8 +12,8 @@ import UIKit
 class CharacterTableViewCell: UITableViewCell {
     
     @IBOutlet weak var containerView: UIView!
-    @IBOutlet weak var parentView: CharacterView!
-    @IBOutlet weak var characterImageView: CharacterImageView!
+    @IBOutlet weak var parentView: UIView!
+    @IBOutlet weak var characterImageView:UIImageView!
     @IBOutlet weak var characterNameLbl: UILabel!
     @IBOutlet weak var characterDescriptionLbl: UILabel!
     
@@ -29,6 +29,7 @@ class CharacterTableViewCell: UITableViewCell {
     
     // Set All Values To Cell
     func cellConfiguration(character:CharacterModel) {
+        
         parentView.applyTopRoundedCornersView()
         characterNameLbl.text = character.name
         if character.description != "" {
